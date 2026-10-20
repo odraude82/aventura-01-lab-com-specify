@@ -1,0 +1,22 @@
+{
+  "name": "sala-do-eco",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node --test",
+    "dev": "vite --config web/vite.config.js",
+    "build": "vite build --config web/vite.config.js"
+  },
+  "engines": {
+    "node": ">=24 <25"
+  },
+  "dependencies": {
+    "@fontsource/dm-sans": "^5.3.0",
+    "@fontsource/fraunces": "^5.3.0",
+    "chart.js": "^4.5.1",
+    "vite": "^8.3.4"
+  }
+}
